@@ -1,11 +1,12 @@
- function checkAge(age) {
-     if (age >= 18) {
-         return ("Success");
-    }
-    else if (age <=18) {
-        return ("Failure");
-    }
-}
+//  function checkAge(age) {
+//      if (age >= 18) {
+//          return ("Success");
+//     }
+//     else if (age <=18) {
+//         return ("Failure");
+//     }
+// }
+
 
 // let age = prompt ("How old are you?", 18);
 
@@ -17,6 +18,7 @@
 // };
 
 // }
+
 
 // var checkAge = prompt("How old are you?", 18);
 
@@ -30,16 +32,19 @@
 // }
 
 
-// let age = prompt("how old are you?");
-// let conf = confirm(`are you ${age} years old ?`);
-// if (age >=18) {
-// alert(`You are ${age} years old.Welcome!`);
-// } 
+ let age = prompt("How old are you?");
+let conf = confirm(`Are you ${age} years old ?`);
+ if (age >=18) {
+ alert(`Welcome!`);
+//  alert(`You are ${age} years old.Welcome!`);
+ } 
 
-// else {
-// alert(`You're only ${age}. Access denied. :() `);
-// }
+ else {
+alert(`You're too young, sorry.  Access denied. `);
+// alert(`You're only ${age}. Access denied.`);
+ }
 //switch case example
+
 
 
 // if (age >=18) {

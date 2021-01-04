@@ -1,3 +1,58 @@
+ function checkAge(age) {
+     if (age >= 18) {
+         return ("Success");
+    }
+    else if (age <=18) {
+        return ("Failure");
+    }
+}
+
+// let age = prompt ("How old are you?", 18);
+
+// if (checking(age)) {
+//     alert ('You may enter' );
+// }
+// else { 
+//     alert ('Denied');
+// };
+
+// }
+
+// var checkAge = prompt("How old are you?", 18);
+
+// if (check(age >=18)) {
+//     var checkAge = prompt('You may enter');
+// }
+
+// else {
+//     alert ('Denied');
+
+// }
+
+
+// let age = prompt("how old are you?");
+// let conf = confirm(`are you ${age} years old ?`);
+// if (age >=18) {
+// alert(`You are ${age} years old.Welcome!`);
+// } 
+
+// else {
+// alert(`You're only ${age}. Access denied. :() `);
+// }
+//switch case example
+
+
+// if (age >=18) {
+//   txt = ("You may enter");
+
+// }
+//  else {
+//   txt = "Not old enough";
+// }
+// };
+
+
+
 // document.write('Hello World' + '<br/>');
 // document.write('Hello World' + '<br/>');
 // document.write('Hello World' + '<br/>');
@@ -44,50 +99,50 @@
 //     }
 // }
 
-for ( var i=0; i <= 20; i++){
-    if(i % 2 === 0){
-            document.write(i + "is even" + "<br>");
-    }
-    else {
-        document.write(i + "is odd" + "<br>");
-    }
-}
+// for ( var i=0; i <= 20; i++){
+//     if(i % 2 === 0){
+//             document.write(i + "is even" + "<br>");
+//     }
+//     else {
+//         document.write(i + "is odd" + "<br>");
+//     }
+// }
 
-var money = 2500.00;
-var bills = 2500.00;
+// var money = 2500.00;
+// var bills = 2500.00;
 
-if (money > bills){
-     document.write ("You're good to go!");
-}
-else if (money===bills){
-    document.write("Don't push it");
-}
-    else {
-        document.write("Haha POOR");
-};
-
-
+// if (money > bills){
+//      document.write ("You're good to go!");
+// }
+// else if (money===bills){
+//     document.write("Don't push it");
+// }
+//     else {
+//         document.write("Haha POOR");
+// };
 
 
 
-function assignGrade(score){
-    if (score > 90){
-        return "A";
-    }
-    else if (score > 80){
-        return "B";
-    }
-    else if (score > 70){
-        return "C";
-    }
-    else if (score > 60){
-        return "Technically passing and failing at the same time";
-    }
-    else {
-        return "Failing";
-    } 
-}
 
-document.write(" Your grade is " + assignGrade(86) + "<br>");
-document.write(" Your grade is " + assignGrade(53) + "<br>");
-document.write(" Your grade is " + assignGrade(76) + "<br>");
+
+// function assignGrade(score){
+//     if (score > 90){
+//         return "A";
+//     }
+//     else if (score > 80){
+//         return "B";
+//     }
+//     else if (score > 70){
+//         return "C";
+//     }
+//     else if (score > 60){
+//         return "Technically passing and failing at the same time";
+//     }
+//     else {
+//         return "Failing";
+//     } 
+// }
+
+// document.write(" Your grade is " + assignGrade(86) + "<br>");
+// document.write(" Your grade is " + assignGrade(53) + "<br>");
+// document.write(" Your grade is " + assignGrade(76) + "<br>");
